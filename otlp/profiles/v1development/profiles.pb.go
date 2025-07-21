@@ -37,12 +37,13 @@
 package v1development
 
 import (
-	v1 "go.opentelemetry.io/proto/otlp/common/v1"
-	v11 "go.opentelemetry.io/proto/otlp/resource/v1"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
+
+	v1 "github.com/echlebek/opentelemetry-proto-go/otlp/common/v1"
+	v11 "github.com/echlebek/opentelemetry-proto-go/otlp/resource/v1"
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 
 const (
